@@ -37,7 +37,6 @@ function updateRecords(object, id, prop, value) {
   } else {
     object[id][prop] = value;
   }
-
   return object;
   // Only change code above this line
 }
