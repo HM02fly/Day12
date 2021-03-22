@@ -13,8 +13,8 @@ var myPetsArray = [
   },
 ];
 function myPetsFunction(pets) {
-  var pets = myPetsArray[1].name;
-  return pets;
+  var pets = myPetsArray;
+  return pets[1].name;
 }
 console.log(myPetsFunction(myPetsArray));
 
